@@ -1,0 +1,58 @@
+/* extras */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+:root{
+  --color-verde: #007141;
+  --color-amarillo: #f1a631;
+}
+/*general*/
+body{
+    font-family: 'open sans', sans-serif;
+}
+h1{
+    font-family: 'Fredoka', sans-serif;
+}
+
+/*scrollbar*/
+/* ancho */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+ .btn-primary{
+   background-color:  #5cb85c !important;
+   border-color: #4cae4c !important;
+ }
+ .btn-dark{
+   background-color: #428bca !important;
+   border-color: #357ebd !important;
+   color: white !important;
+ }
+ .dropdown-item:active{
+  background-color:  #5cb85c !important;
+ }
+ thead th{
+   background-color: #66bb6a !important;
+   color: white;
+ }
+ table{
+  font-family: arial, sans, sans-serif !important;
+ }
+.btn-danger{
+  background-color: #f0ad4e;
+  border-color: #eea236;
+  color: white;
+}
